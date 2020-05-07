@@ -1,0 +1,94 @@
+<html>
+    <head>
+    <title>Taylor Palm's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfoli_css.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f4dc7a5898.js" crossorigin="anonymous"></script> 
+
+    <style>
+    
+    .flex-container {
+    display: flex;
+    width: 100%
+    }
+
+    .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .flex-container > img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+
+    h4{
+        color: rgba(249, 48, 72)
+    }
+    #left{
+        padding-top: 20px;
+    }
+
+    </style>
+
+
+    </head>
+    <body>
+        <div class="banner">
+
+             <ul>
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ActualPortfolioPage.html">Portfolio</a></li>
+                <li><a href="contact.html">Connect</a></li>
+            </ul> 
+
+                </div>
+
+
+                <div class="bio flex-container">
+                    <div>
+                        <h4>Javascript Polygon</h4>
+                        <video id='left' width='90%' height='180px' controls>
+                            <source src="polygon.mov" type="video/mp4">
+                        </video>
+                        <p class='description'>This code uses svg elements and mouse events to allow a user to drag a line through a polygon, which will split it and create 2 new polygons.</p>
+                        <a href='https://github.com/taylorpalm/Web-Dev/tree/master/Palm-%20js%20test' target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div> 
+                        <h4>Angular Matrix</h4>
+                        <video width='90%' height='200px' controls>
+                            <source src="Matrix.mov" type="video/mp4">
+                        </video>
+                        <p class='description'>This application generates a matrix of the given number of rows and columns
+                                with random integers from 1 to 100. It displays the matrix, transpose and the 2 added together if it is a square matrix.
+                        </p>
+                        <a href='https://github.com/taylorpalm/matrix' target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div> 
+                        <h4>React Sorted Table</h4>
+                        <video width='90%' height='200px' controls>
+                            <source src="table 2.mov" type="video/mp4">
+                        </video>
+                        <p class='description'>This table pulls API data on earthquakes, formats it into the table and orders it by magnitude. 
+                            The search function allows you to search and filter by location.</p>
+                        <a href='https://github.com/taylorpalm/Web-Dev/tree/master/guru-frontend-test-11' target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                   
+                </div>
+                      
+
+            
+
+           
+    <script src="portfolioJS.js"></script>
+    </body>
+</html>
